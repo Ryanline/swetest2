@@ -14,7 +14,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/ryanline/swetest2.git'
+                git branch: 'main', url: 'https://github.com/Ryanline/swetest2.git'
             }
         }
 
